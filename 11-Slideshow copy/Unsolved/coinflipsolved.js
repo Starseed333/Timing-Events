@@ -41,11 +41,6 @@ function flipThatCoin(result) {
     $("#losses").html("<h3>" + losses + "</h3>");
   }
 }
-
-
-
-
-
 $("#heads").on("click", function() {
   headsCount++;
   $("#heads-chosen").html(headsCount);
@@ -63,7 +58,3 @@ $("#tails").on("click", function() {
   $("#guess").html("<b>Tails</b>");
   flipThatCoin(1);
 });
-
-
-
-
