@@ -2,6 +2,8 @@ var headsCount = 0;
 var tailsCount = 0;
 var wins = 0;
 var losses = 0;
+
+
 function flipThatCoin(result) {
   // STEP ONE:
   // Declare and initialize a variable named randomNumber to either 0 or 1. Make it random.
